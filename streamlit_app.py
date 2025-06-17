@@ -1,16 +1,16 @@
 import streamlit as st
 
-st.title("🎈 Hola mundo")
-st.write(
-    "Texto de prueba para ver si se esta actualizando el contenido."
-)
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.preprocessing import StandardScaler
 from sklearn.cluster import KMeans
 from sklearn.metrics import silhouette_score
+
+st.title("🎈 Hola mundo")
+st.write(
+    "Texto de prueba para ver si se esta actualizando el contenido."
+)
 
 # ----------------------------------------------------------------------
 # Configuración de la página
