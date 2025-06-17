@@ -5,8 +5,6 @@ st.write(
     "Texto de prueba para ver si se esta actualizando el contenido."
 )
 
-
-import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
